@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard - Task Manager{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <h2>Dashboard</h2>
+        <div class="card mb-4">
+            <div class="card-body">
+                <h4>Welcome, {{ user.name }}!</h4>
+                <p>Here's an overview of your tasks:</p>
+                
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <h1>{{ tasks|length }}</h1>
+                                <p class="mb-0">Total Tasks</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-success text-white">
+                            <div class="card-body text-center">
+                                <h1>{{ tasks|selectattr('completed', 'eq', true)|list|length }}</h1>
+                                <p class="mb-0">Completed Tasks</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-warning text-white">
+                            <div class="card-body text-center">
+                                <h1>{{ tasks|selectattr('completed', 'ne', true)|list|length }}</h1>
+                                <p class="mb-0">Pending Tasks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Recent Tasks</h5>
+                <a href="{{ url_for('tasks') }}" class="btn btn-primary btn-sm">View All Tasks</a>
+            </div>
+            <div class="card-body">
+                {% if tasks %}
+                    <ul class="list-group">
+                        {% for task in tasks[:5] %}
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span {% if task.completed %}class="text-decoration-line-through text-muted"{% endif %}>
+                                        {{ task.description }}
+                                    </span>
+                                </div>
+                                <span class="badge {% if task.completed %}bg-success{% else %}bg-warning{% endif %} rounded-pill">
+                                    {{ 'Completed' if task.completed else 'Pending' }}
+                                </span>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p class="text-muted">No tasks found. <a href="{{ url_for('tasks') }}">Create your first task</a></p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

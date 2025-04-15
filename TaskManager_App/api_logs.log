@@ -1,0 +1,248 @@
+2025-04-15 10:19:34,184 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 10:19:34,193 - werkzeug - INFO -  * Debugger PIN: 360-679-037
+2025-04-15 10:19:45,722 - werkzeug - INFO -  * Detected change in 'C:\\codings\\TaskManager_App\\app.py', reloading
+2025-04-15 10:19:47,077 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 10:19:47,085 - werkzeug - INFO -  * Debugger PIN: 360-679-037
+2025-04-15 10:19:48,172 - werkzeug - INFO -  * Detected change in 'C:\\codings\\TaskManager_App\\app.py', reloading
+2025-04-15 10:20:15,490 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 10:20:15,494 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 10:20:15,494 - werkzeug - INFO -  * Restarting with stat
+2025-04-15 10:20:16,388 - werkzeug - WARNING -  * Debugger is active!
+2025-04-15 10:20:16,393 - werkzeug - INFO -  * Debugger PIN: 360-679-037
+2025-04-15 10:20:23,678 - api_logger - INFO - API Request: {"method": "GET", "url": "http://localhost:3000/task", "headers": {"Authorization": "Bearer [REDACTED]"}}
+2025-04-15 10:20:23,715 - api_logger - INFO - API Response: {"method": "GET", "url": "http://localhost:3000/task", "status_code": 200, "duration_ms": 36.74, "response_body": [{"id": 1, "description": "lalala", "completed": true, "owner": 1, "createdAt": "2025-04-15T02:55:25.458Z", "updatedAt": "2025-04-15T03:05:30.116Z"}, {"id": 2, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:55:43.306Z", "updatedAt": "2025-04-15T02:55:43.306Z"}, {"id": 3, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:56:14.606Z", "updatedAt": "2025-04-15T02:56:14.606Z"}, {"id": 4, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:58:44.199Z", "updatedAt": "2025-04-15T02:58:44.199Z"}]}
+2025-04-15 10:20:23,835 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:20:23] "GET /tasks HTTP/1.1" 200 -
+2025-04-15 10:20:24,092 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:20:24] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-15 10:20:24,122 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:20:24] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
+2025-04-15 10:20:24,157 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:20:24] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
+2025-04-15 10:20:24,163 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:20:24] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
+2025-04-15 10:20:24,163 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:20:24] "GET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1" 200 -
+2025-04-15 10:20:24,212 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:20:24] "GET /_debug_toolbar/static/css/toolbar.css?0.744871599057356 HTTP/1.1" 200 -
+2025-04-15 10:20:24,234 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:20:24] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:20:29,748 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:20:29] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:20:35,069 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:20:35] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2025-04-15 10:20:35,072 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:20:35] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2025-04-15 10:23:40,196 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:40] "[36mGET /_debug_toolbar/static/img/close_hover.png HTTP/1.1[0m" 304 -
+2025-04-15 10:23:55,545 - api_logger - INFO - API Request: {"method": "PUT", "url": "http://localhost:3000/task/2", "headers": {"Authorization": "Bearer [REDACTED]"}, "request_json": {"description": "blup1", "completed": false}}
+2025-04-15 10:23:55,554 - api_logger - INFO - API Response: {"method": "PUT", "url": "http://localhost:3000/task/2", "status_code": 200, "duration_ms": 9.48, "response_body": {"id": 2, "description": "blup1", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:55:43.306Z", "updatedAt": "2025-04-15T03:23:55.557Z"}}
+2025-04-15 10:23:55,602 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:55] "POST /tasks/2/update HTTP/1.1" 200 -
+2025-04-15 10:23:55,660 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:55] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:23:55,685 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:55] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:23:55,689 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:55] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:23:55,695 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:55] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:23:55,722 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:55] "GET /_debug_toolbar/static/css/toolbar.css?0.8721510625323916 HTTP/1.1" 200 -
+2025-04-15 10:23:55,762 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:55] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:23:58,194 - api_logger - INFO - API Request: {"method": "GET", "url": "http://localhost:3000/task", "headers": {"Authorization": "Bearer [REDACTED]"}}
+2025-04-15 10:23:58,216 - api_logger - INFO - API Response: {"method": "GET", "url": "http://localhost:3000/task", "status_code": 200, "duration_ms": 22.07, "response_body": [{"id": 1, "description": "lalala", "completed": true, "owner": 1, "createdAt": "2025-04-15T02:55:25.458Z", "updatedAt": "2025-04-15T03:05:30.116Z"}, {"id": 2, "description": "blup1", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:55:43.306Z", "updatedAt": "2025-04-15T03:23:55.557Z"}, {"id": 3, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:56:14.606Z", "updatedAt": "2025-04-15T02:56:14.606Z"}, {"id": 4, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:58:44.199Z", "updatedAt": "2025-04-15T02:58:44.199Z"}]}
+2025-04-15 10:23:58,269 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:58] "GET /tasks HTTP/1.1" 200 -
+2025-04-15 10:23:58,329 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:23:58,344 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:58] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:23:58,344 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:58] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:23:58,347 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:58] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:23:58,354 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:58] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:23:58,402 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:58] "GET /_debug_toolbar/static/css/toolbar.css?0.5772538559125578 HTTP/1.1" 200 -
+2025-04-15 10:23:58,442 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:23:58] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:24:04,512 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:04] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:24:06,375 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:06] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2025-04-15 10:24:06,375 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:06] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2025-04-15 10:24:09,332 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:09] "[36mGET /_debug_toolbar/static/img/close_hover.png HTTP/1.1[0m" 304 -
+2025-04-15 10:24:27,667 - api_logger - INFO - API Request: {"method": "PUT", "url": "http://localhost:3000/task/2", "headers": {"Authorization": "Bearer [REDACTED]"}, "request_json": {"description": "blup11", "completed": false}}
+2025-04-15 10:24:27,686 - api_logger - INFO - API Response: {"method": "PUT", "url": "http://localhost:3000/task/2", "status_code": 200, "duration_ms": 19.16, "response_body": {"id": 2, "description": "blup11", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:55:43.306Z", "updatedAt": "2025-04-15T03:24:27.681Z"}}
+2025-04-15 10:24:27,727 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:27] "POST /tasks/2/update HTTP/1.1" 200 -
+2025-04-15 10:24:27,774 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:27] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:24:27,795 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:27] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:24:27,797 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:27] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:24:27,797 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:27] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:24:27,812 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:27] "GET /_debug_toolbar/static/css/toolbar.css?0.6859989294004459 HTTP/1.1" 200 -
+2025-04-15 10:24:27,837 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:27] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:24:29,962 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:29] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2025-04-15 10:24:29,966 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:24:29] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2025-04-15 10:26:04,199 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:04] "[36mGET /_debug_toolbar/static/img/close_hover.png HTTP/1.1[0m" 304 -
+2025-04-15 10:26:08,777 - api_logger - INFO - API Request: {"method": "GET", "url": "http://localhost:3000/task", "headers": {"Authorization": "Bearer [REDACTED]"}}
+2025-04-15 10:26:08,794 - api_logger - INFO - API Response: {"method": "GET", "url": "http://localhost:3000/task", "status_code": 200, "duration_ms": 14.57, "response_body": [{"id": 1, "description": "lalala", "completed": true, "owner": 1, "createdAt": "2025-04-15T02:55:25.458Z", "updatedAt": "2025-04-15T03:05:30.116Z"}, {"id": 2, "description": "blup11", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:55:43.306Z", "updatedAt": "2025-04-15T03:24:27.681Z"}, {"id": 3, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:56:14.606Z", "updatedAt": "2025-04-15T02:56:14.606Z"}, {"id": 4, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:58:44.199Z", "updatedAt": "2025-04-15T02:58:44.199Z"}]}
+2025-04-15 10:26:08,852 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:08] "GET /tasks HTTP/1.1" 200 -
+2025-04-15 10:26:08,899 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:26:08,913 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:08] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:26:08,915 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:08] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:26:08,915 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:08] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:26:08,922 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:08] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:26:08,954 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:08] "GET /_debug_toolbar/static/css/toolbar.css?0.5739388536557554 HTTP/1.1" 200 -
+2025-04-15 10:26:08,982 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:08] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:26:25,967 - api_logger - INFO - API Request: {"method": "POST", "url": "http://localhost:3000/task", "headers": {"Authorization": "Bearer [REDACTED]"}, "request_json": {"description": "uts"}}
+2025-04-15 10:26:25,987 - api_logger - INFO - API Response: {"method": "POST", "url": "http://localhost:3000/task", "status_code": 201, "duration_ms": 20.18, "response_body": {"id": 5, "description": "uts", "completed": false, "owner": 1, "createdAt": "2025-04-15T03:26:25.982Z", "updatedAt": "2025-04-15T03:26:25.982Z"}}
+2025-04-15 10:26:26,042 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:26] "POST /tasks/add HTTP/1.1" 200 -
+2025-04-15 10:26:26,106 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:26] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:26:26,127 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:26] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:26:26,132 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:26] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:26:26,133 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:26] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:26:26,157 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:26] "GET /_debug_toolbar/static/css/toolbar.css?0.12472082378221194 HTTP/1.1" 200 -
+2025-04-15 10:26:26,192 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:26] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:26:27,709 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:27] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2025-04-15 10:26:27,712 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:26:27] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2025-04-15 10:28:31,213 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:31] "[36mGET /_debug_toolbar/static/img/close_hover.png HTTP/1.1[0m" 304 -
+2025-04-15 10:28:34,591 - api_logger - INFO - API Request: {"method": "GET", "url": "http://localhost:3000/task", "headers": {"Authorization": "Bearer [REDACTED]"}}
+2025-04-15 10:28:34,612 - api_logger - INFO - API Response: {"method": "GET", "url": "http://localhost:3000/task", "status_code": 200, "duration_ms": 11.09, "response_body": [{"id": 1, "description": "lalala", "completed": true, "owner": 1, "createdAt": "2025-04-15T02:55:25.458Z", "updatedAt": "2025-04-15T03:05:30.116Z"}, {"id": 2, "description": "blup11", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:55:43.306Z", "updatedAt": "2025-04-15T03:24:27.681Z"}, {"id": 3, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:56:14.606Z", "updatedAt": "2025-04-15T02:56:14.606Z"}, {"id": 4, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:58:44.199Z", "updatedAt": "2025-04-15T02:58:44.199Z"}, {"id": 5, "description": "uts", "completed": false, "owner": 1, "createdAt": "2025-04-15T03:26:25.982Z", "updatedAt": "2025-04-15T03:26:25.982Z"}]}
+2025-04-15 10:28:34,651 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:34] "GET /tasks HTTP/1.1" 200 -
+2025-04-15 10:28:34,722 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:28:34,738 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:34] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:28:34,738 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:34] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:28:34,742 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:34] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:28:34,744 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:34] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:28:34,785 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:34] "GET /_debug_toolbar/static/css/toolbar.css?0.9211874085886196 HTTP/1.1" 200 -
+2025-04-15 10:28:34,806 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:34] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:28:37,711 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:37] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:28:44,531 - api_logger - INFO - API Request: {"method": "PUT", "url": "http://localhost:3000/task/5", "headers": {"Authorization": "Bearer [REDACTED]"}, "request_json": {"description": "uts", "completed": true}}
+2025-04-15 10:28:44,553 - api_logger - INFO - API Response: {"method": "PUT", "url": "http://localhost:3000/task/5", "status_code": 200, "duration_ms": 21.34, "response_body": {"id": 5, "description": "uts", "completed": true, "owner": 1, "createdAt": "2025-04-15T03:26:25.982Z", "updatedAt": "2025-04-15T03:28:44.545Z"}}
+2025-04-15 10:28:44,611 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:44] "POST /tasks/5/update HTTP/1.1" 200 -
+2025-04-15 10:28:44,654 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:44] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:28:44,672 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:44] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:28:44,674 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:44] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:28:44,682 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:44] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:28:44,697 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:44] "GET /_debug_toolbar/static/css/toolbar.css?0.7114392917573352 HTTP/1.1" 200 -
+2025-04-15 10:28:44,720 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:44] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:28:47,249 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:47] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:28:48,597 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:48] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2025-04-15 10:28:48,605 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:28:48] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2025-04-15 10:30:51,263 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:30:51] "[36mGET /_debug_toolbar/static/img/close_hover.png HTTP/1.1[0m" 304 -
+2025-04-15 10:30:53,611 - api_logger - INFO - API Request: {"method": "GET", "url": "http://localhost:3000/task", "headers": {"Authorization": "Bearer [REDACTED]"}}
+2025-04-15 10:30:53,629 - api_logger - INFO - API Response: {"method": "GET", "url": "http://localhost:3000/task", "status_code": 200, "duration_ms": 17.98, "response_body": [{"id": 1, "description": "lalala", "completed": true, "owner": 1, "createdAt": "2025-04-15T02:55:25.458Z", "updatedAt": "2025-04-15T03:05:30.116Z"}, {"id": 2, "description": "blup11", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:55:43.306Z", "updatedAt": "2025-04-15T03:24:27.681Z"}, {"id": 3, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:56:14.606Z", "updatedAt": "2025-04-15T02:56:14.606Z"}, {"id": 4, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:58:44.199Z", "updatedAt": "2025-04-15T02:58:44.199Z"}, {"id": 5, "description": "uts", "completed": true, "owner": 1, "createdAt": "2025-04-15T03:26:25.982Z", "updatedAt": "2025-04-15T03:28:44.545Z"}]}
+2025-04-15 10:30:53,686 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:30:53] "GET /tasks HTTP/1.1" 200 -
+2025-04-15 10:30:53,753 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:30:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:30:53,770 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:30:53] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:30:53,772 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:30:53] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:30:53,772 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:30:53] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:30:53,772 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:30:53] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:30:53,821 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:30:53] "GET /_debug_toolbar/static/css/toolbar.css?0.6564916195442193 HTTP/1.1" 200 -
+2025-04-15 10:30:53,865 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:30:53] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:30:57,134 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:30:57] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:31:01,851 - api_logger - INFO - API Request: {"method": "DELETE", "url": "http://localhost:3000/task/5", "headers": {"Authorization": "Bearer [REDACTED]"}}
+2025-04-15 10:31:01,873 - api_logger - INFO - API Response: {"method": "DELETE", "url": "http://localhost:3000/task/5", "status_code": 200, "duration_ms": 21.27, "response_body": {"message": "Task deleted successfully"}}
+2025-04-15 10:31:01,912 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:31:01] "POST /tasks/5/delete HTTP/1.1" 200 -
+2025-04-15 10:31:01,994 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:31:01] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:31:01,996 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:31:01] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:31:02,006 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:31:02] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:31:02,008 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:31:02] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:31:02,032 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:31:02] "GET /_debug_toolbar/static/css/toolbar.css?0.3726148644722308 HTTP/1.1" 200 -
+2025-04-15 10:31:02,066 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:31:02] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:31:04,472 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:31:04] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:31:06,303 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:31:06] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2025-04-15 10:31:06,308 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:31:06] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2025-04-15 10:32:02,626 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:02] "[36mGET /_debug_toolbar/static/img/close_hover.png HTTP/1.1[0m" 304 -
+2025-04-15 10:32:05,032 - api_logger - INFO - API Request: {"method": "GET", "url": "http://localhost:3000/task", "headers": {"Authorization": "Bearer [REDACTED]"}}
+2025-04-15 10:32:05,063 - api_logger - INFO - API Response: {"method": "GET", "url": "http://localhost:3000/task", "status_code": 200, "duration_ms": 29.64, "response_body": [{"id": 1, "description": "lalala", "completed": true, "owner": 1, "createdAt": "2025-04-15T02:55:25.458Z", "updatedAt": "2025-04-15T03:05:30.116Z"}, {"id": 2, "description": "blup11", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:55:43.306Z", "updatedAt": "2025-04-15T03:24:27.681Z"}, {"id": 3, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:56:14.606Z", "updatedAt": "2025-04-15T02:56:14.606Z"}, {"id": 4, "description": "blup", "completed": false, "owner": 1, "createdAt": "2025-04-15T02:58:44.199Z", "updatedAt": "2025-04-15T02:58:44.199Z"}]}
+2025-04-15 10:32:05,102 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:05] "GET /tasks HTTP/1.1" 200 -
+2025-04-15 10:32:05,166 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:32:05,172 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:05] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:32:05,172 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:05] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:32:05,172 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:05] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:32:05,187 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:05] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:32:05,221 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:05] "GET /_debug_toolbar/static/css/toolbar.css?0.1252342294158194 HTTP/1.1" 200 -
+2025-04-15 10:32:05,235 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:05] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:32:06,700 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:06] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:32:07,845 - api_logger - INFO - API Request: {"method": "GET", "url": "http://localhost:3000/user/me", "headers": {"Authorization": "Bearer [REDACTED]"}}
+2025-04-15 10:32:07,866 - api_logger - INFO - API Response: {"method": "GET", "url": "http://localhost:3000/user/me", "status_code": 200, "duration_ms": 20.04, "response_body": {"id": 1, "name": "pak won", "email": "wonu@mail.co", "age": "30", "avatar": null, "createdAt": "2025-04-15T02:53:36.587Z", "updatedAt": "2025-04-15T02:53:36.587Z"}}
+2025-04-15 10:32:07,971 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:07] "GET /profile HTTP/1.1" 200 -
+2025-04-15 10:32:08,021 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:32:08,051 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:08] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:32:08,056 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:08] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:32:08,056 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:08] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:32:08,060 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:08] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:32:08,098 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:08] "GET /_debug_toolbar/static/css/toolbar.css?0.03756394060836166 HTTP/1.1" 200 -
+2025-04-15 10:32:08,136 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:08] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:32:15,147 - api_logger - INFO - API Request: {"method": "PUT", "url": "http://localhost:3000/user/me", "headers": {"Authorization": "Bearer [REDACTED]"}, "request_json": {"name": "pak won", "age": "25"}}
+2025-04-15 10:32:15,168 - api_logger - INFO - API Response: {"method": "PUT", "url": "http://localhost:3000/user/me", "status_code": 200, "duration_ms": 21.18, "response_body": {"id": 1, "name": "pak won", "email": "wonu@mail.co", "age": "25", "avatar": null, "createdAt": "2025-04-15T02:53:36.587Z", "updatedAt": "2025-04-15T03:32:15.163Z"}}
+2025-04-15 10:32:15,203 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:15] "POST /profile/update HTTP/1.1" 200 -
+2025-04-15 10:32:15,263 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:15] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:32:15,284 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:15] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:32:15,284 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:15] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:32:15,296 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:15] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:32:15,314 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:15] "GET /_debug_toolbar/static/css/toolbar.css?0.5232283910691339 HTTP/1.1" 200 -
+2025-04-15 10:32:15,346 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:15] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:32:17,617 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:17] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:32:22,217 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:22] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2025-04-15 10:32:22,220 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:32:22] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2025-04-15 10:33:13,041 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:13] "[36mGET /_debug_toolbar/static/img/close_hover.png HTTP/1.1[0m" 304 -
+2025-04-15 10:33:15,561 - api_logger - INFO - API Request: {"method": "GET", "url": "http://localhost:3000/user/me", "headers": {"Authorization": "Bearer [REDACTED]"}}
+2025-04-15 10:33:15,578 - api_logger - INFO - API Response: {"method": "GET", "url": "http://localhost:3000/user/me", "status_code": 200, "duration_ms": 17.39, "response_body": {"id": 1, "name": "pak won", "email": "wonu@mail.co", "age": "25", "avatar": null, "createdAt": "2025-04-15T02:53:36.587Z", "updatedAt": "2025-04-15T03:32:15.163Z"}}
+2025-04-15 10:33:15,622 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:15] "GET /profile HTTP/1.1" 200 -
+2025-04-15 10:33:15,678 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:33:15,698 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:15] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:15,698 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:15] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:15,701 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:15] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:15,703 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:15] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:15,746 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:15] "GET /_debug_toolbar/static/css/toolbar.css?0.6069615155196962 HTTP/1.1" 200 -
+2025-04-15 10:33:15,770 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:15] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:33:18,151 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:18] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:33:50,041 - api_logger - INFO - API Request: {"method": "POST", "url": "http://localhost:3000/user/logout", "headers": {"Authorization": "Bearer [REDACTED]"}}
+2025-04-15 10:33:50,056 - api_logger - INFO - API Response: {"method": "POST", "url": "http://localhost:3000/user/logout", "status_code": 200, "duration_ms": 14.94, "response_body": {"message": "Logged out successfully"}}
+2025-04-15 10:33:50,103 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:50] "GET /logout HTTP/1.1" 200 -
+2025-04-15 10:33:50,163 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:50] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:50,183 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:50] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:50,190 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:50] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:50,191 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:50] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:50,206 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:50] "GET /_debug_toolbar/static/css/toolbar.css?0.8622614978380339 HTTP/1.1" 200 -
+2025-04-15 10:33:50,238 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:50] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:33:52,932 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:52] "GET / HTTP/1.1" 200 -
+2025-04-15 10:33:53,001 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:33:53,023 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:53] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:53,033 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:53] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:53,033 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:53] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:53,043 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:53] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:53,065 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:53] "GET /_debug_toolbar/static/css/toolbar.css?0.9511751913911315 HTTP/1.1" 200 -
+2025-04-15 10:33:53,102 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:53] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:33:55,552 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:55] "GET /register HTTP/1.1" 200 -
+2025-04-15 10:33:55,612 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:33:55,629 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:55] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:55,633 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:55] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:55,638 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:55] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:55,645 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:55] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:33:55,666 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:55] "GET /_debug_toolbar/static/css/toolbar.css?0.2523564297030082 HTTP/1.1" 200 -
+2025-04-15 10:33:55,708 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:33:55] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:34:12,736 - api_logger - INFO - API Request: {"method": "POST", "url": "http://localhost:3000/user/register", "headers": {}, "request_json": {"name": "rahil", "email": "aaa@gmail.com", "password": "000", "age": "20"}}
+2025-04-15 10:34:12,811 - api_logger - INFO - API Response: {"method": "POST", "url": "http://localhost:3000/user/register", "status_code": 201, "duration_ms": 73.34, "response_body": {"user": {"id": 2, "name": "rahil", "email": "aaa@gmail.com", "age": "20", "avatar": null, "createdAt": "2025-04-15T03:34:12.806Z", "updatedAt": "2025-04-15T03:34:12.806Z"}, "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzQ0Njg4MDUyfQ._9WIqDAB3bKaqJNfWGLQIjcMIH36PpapwOPhF59w4oY"}}
+2025-04-15 10:34:12,858 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:34:12] "POST /register HTTP/1.1" 200 -
+2025-04-15 10:34:12,913 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:34:12] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:34:12,936 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:34:12] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:34:12,938 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:34:12] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:34:12,943 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:34:12] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:34:12,959 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:34:12] "GET /_debug_toolbar/static/css/toolbar.css?0.00008806462587140906 HTTP/1.1" 200 -
+2025-04-15 10:34:13,004 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:34:13] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 -
+2025-04-15 10:34:15,120 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:34:15] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:34:16,991 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:34:16] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2025-04-15 10:34:16,993 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:34:16] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2025-04-15 10:35:41,059 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:41] "[36mGET /_debug_toolbar/static/img/close_hover.png HTTP/1.1[0m" 304 -
+2025-04-15 10:35:43,281 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:43] "GET /login HTTP/1.1" 200 -
+2025-04-15 10:35:43,348 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:35:43,358 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:43] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:35:43,362 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:43] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:35:43,372 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:43] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:35:43,376 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:43] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:35:43,401 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:43] "GET /_debug_toolbar/static/css/toolbar.css?0.22523084950996564 HTTP/1.1" 200 -
+2025-04-15 10:35:43,435 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:43] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:35:50,092 - api_logger - INFO - API Request: {"method": "POST", "url": "http://localhost:3000/user/login", "headers": {}, "request_json": {"email": "aaa@gmail.com", "password": "000"}}
+2025-04-15 10:35:50,151 - api_logger - INFO - API Response: {"method": "POST", "url": "http://localhost:3000/user/login", "status_code": 200, "duration_ms": 59.78, "response_body": {"user": {"id": 2, "name": "rahil", "email": "aaa@gmail.com", "age": "20", "avatar": null, "createdAt": "2025-04-15T03:34:12.806Z", "updatedAt": "2025-04-15T03:34:12.806Z"}, "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzQ0Njg4MTUwfQ.55iBpv4iTa0fAzBO8d27uItYjr1xY17P6TMLl5r5OEs"}}
+2025-04-15 10:35:50,209 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:50] "POST /login HTTP/1.1" 200 -
+2025-04-15 10:35:50,264 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:50] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:35:50,264 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:50] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:35:50,264 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:50] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:35:50,284 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:50] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:35:50,308 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:50] "GET /_debug_toolbar/static/css/toolbar.css?0.5084854682412638 HTTP/1.1" 200 -
+2025-04-15 10:35:50,353 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:50] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:35:52,556 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:52] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2025-04-15 10:35:52,558 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:35:52] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2025-04-15 10:36:41,607 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:36:41] "[36mGET /_debug_toolbar/static/img/close_hover.png HTTP/1.1[0m" 304 -
+2025-04-15 10:36:43,563 - api_logger - INFO - API Request: {"method": "GET", "url": "http://localhost:3000/user/me", "headers": {"Authorization": "Bearer [REDACTED]"}}
+2025-04-15 10:36:43,576 - api_logger - INFO - API Response: {"method": "GET", "url": "http://localhost:3000/user/me", "status_code": 200, "duration_ms": 12.92, "response_body": {"id": 2, "name": "rahil", "email": "aaa@gmail.com", "age": "20", "avatar": null, "createdAt": "2025-04-15T03:34:12.806Z", "updatedAt": "2025-04-15T03:34:12.806Z"}}
+2025-04-15 10:36:43,582 - api_logger - INFO - API Request: {"method": "GET", "url": "http://localhost:3000/task", "headers": {"Authorization": "Bearer [REDACTED]"}}
+2025-04-15 10:36:43,596 - api_logger - INFO - API Response: {"method": "GET", "url": "http://localhost:3000/task", "status_code": 200, "duration_ms": 14.39, "response_body": []}
+2025-04-15 10:36:43,661 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:36:43] "GET /dashboard HTTP/1.1" 200 -
+2025-04-15 10:36:43,733 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:36:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:36:43,741 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:36:43] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2025-04-15 10:36:43,743 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:36:43] "[36mGET /_debug_toolbar/static/js/jquery-migrate.js HTTP/1.1[0m" 304 -
+2025-04-15 10:36:43,756 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:36:43] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2025-04-15 10:36:43,763 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:36:43] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2025-04-15 10:36:43,791 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:36:43] "GET /_debug_toolbar/static/css/toolbar.css?0.5033197121003454 HTTP/1.1" 200 -
+2025-04-15 10:36:43,811 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:36:43] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2025-04-15 10:36:47,791 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:36:47] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2025-04-15 10:36:47,791 - werkzeug - INFO - 127.0.0.1 - - [15/Apr/2025 10:36:47] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
